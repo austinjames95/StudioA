@@ -34,7 +34,7 @@ architecture Structural of four_bit_full_adder is
     signal c1, c2, c3: STD_LOGIC;
 
     -- Component Declaration for Full Adder
-    component full_adder
+    component full_adder is
         Port ( A     : in  STD_LOGIC;
                B     : in  STD_LOGIC;
                Cin   : in  STD_LOGIC;
