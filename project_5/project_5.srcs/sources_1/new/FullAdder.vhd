@@ -36,7 +36,7 @@ architecture Structural of full_adder is
     signal S1, C1, C2 : STD_LOGIC;
 
     -- Component Declaration for Half Adder
-    component half_adder
+    component half_adder is
         Port ( A : in STD_LOGIC;
                B : in STD_LOGIC;
                S : out STD_LOGIC;
