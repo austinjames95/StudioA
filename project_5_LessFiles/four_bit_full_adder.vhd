@@ -5,11 +5,10 @@ USE IEEE.STD_LOGIC_1164.ALL;
 
 ENTITY four_bit_full_adder IS
     PORT (
-        A, B    : IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
-        Cin     : IN  STD_LOGIC;
-        S       : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
-        Cout    : OUT STD_LOGIC
-    );
+        A, B : IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
+        Cin : IN  STD_LOGIC;
+        S : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+        Cout : OUT STD_LOGIC);
 END four_bit_full_adder;
 
 ARCHITECTURE Structural OF four_bit_full_adder IS
