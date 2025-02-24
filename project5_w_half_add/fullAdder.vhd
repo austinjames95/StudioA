@@ -41,4 +41,4 @@ architecture Behavioral of full_adder is
     -- Carry-Out Logic
     Cout <= C1 OR C2;
 
-END Structural;
+END ARCHITECTURE Structural;
