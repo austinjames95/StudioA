@@ -66,10 +66,10 @@ use UNISIM.vcomponents.all;
 
 ENTITY LEDdisplay IS
 	PORT (
-		  clk					: IN  STD_LOGIC;
-		  seg0,seg1,seg2,seg3		: IN  STD_LOGIC_VECTOR(6 downto 0);
-        seg       		: OUT  STD_LOGIC_VECTOR(6  downto 0);
-		  an					: OUT STD_LOGIC_VECTOR(3 downto 0));		  
+		clk : IN  STD_LOGIC;
+		seg0, seg1, seg2, seg3 : IN STD_LOGIC_VECTOR(6 downto 0);
+		seg : OUT  STD_LOGIC_VECTOR(6 downto 0);
+		an : OUT STD_LOGIC_VECTOR(3 downto 0));		  
 END LEDdisplay;
 
 ARCHITECTURE structural of LEDdisplay is
