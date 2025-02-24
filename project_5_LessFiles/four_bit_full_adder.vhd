@@ -29,26 +29,30 @@ ARCHITECTURE Structural OF four_bit_full_adder IS
 
 BEGIN
     -- Instantiate 1-bit full adders
-    FA0: bit_full_adder PORT MAP (
+    FA0: bit_full_adder 
+    PORT MAP (
       A => A(0), 
       B => B(0), 
       Cin => Cin, 
       S => S(0), 
       Cout => c0);
       
-    FA1: bit_full_adder PORT MAP (
+    FA1: bit_full_adder 
+    PORT MAP (
       A => A(1), 
       B => B(1), 
       Cin => c0, 
       S => S(1), 
       Cout => c1);
-    FA2: bit_full_adder PORT MAP (
+    FA2: bit_full_adder 
+    PORT MAP (
       A => A(2), 
       B => B(2), 
       Cin => c1, 
       S => S(2), 
       Cout => c2);
-    FA3: bit_full_adder PORT MAP (
+    FA3: bit_full_adder 
+    PORT MAP (
       A => A(3), 
       B => B(3), 
       Cin => c2, 
