@@ -1,5 +1,5 @@
 ## Assign 7-Segment Display Segment Pins
-set_property PACKAGE_PIN U2  [get_ports {seg[0]}]   ; # Segment A
+set_property PACKAGE_PIN U2  [get_ports {seg[0]}]   # Segment A
 set_property PACKAGE_PIN U4  [get_ports {seg[1]}]   ## Segment B
 set_property PACKAGE_PIN V4  [get_ports {seg[2]}]   ## Segment C
 set_property PACKAGE_PIN W4  [get_ports {seg[3]}]   ## Segment D
