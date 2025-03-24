@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL; 
 
-entity top_level is
+entity top_level_multi is
     Port ( 
         an : out STD_LOGIC_VECTOR (3 downto 0);
         sw, sw2 : in STD_LOGIC_VECTOR (3 downto 0);
