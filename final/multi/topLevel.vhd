@@ -11,7 +11,7 @@ entity top_level_multi is
     );
 end top_level;
 
-architecture Behavioral of top_level is
+architecture Behavioral of top_level_multi is
 
 function shift_left_4bit(input: STD_LOGIC_VECTOR(3 downto 0); shift: integer) return STD_LOGIC_VECTOR is
     variable temp : STD_LOGIC_VECTOR(7 downto 0) := (others => '0');
